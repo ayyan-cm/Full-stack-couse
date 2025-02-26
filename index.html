@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="styled-name">Ayyan</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Project details</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section
+      id="about"
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 20px;
+        margin-right: 20px;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding: 20px;
+          margin-right: 20px;
+          width: 50%;
+        "
+      >
+        <img
+          src="./assets/hero.jpg"
+          alt="Profile Image"
+          style="width: 250px; border-radius: 50%"
+        />
+      </div>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding: 20px;
+          margin-right: 20px;
+          width: 50%;
+        "
+      >
+        <h2>Ayyan</h2>
+        <p>
+          I am a Full Stack Developer and Generative AI Freelancer with a
+          passion for creating innovative solutions and delivering high-quality
+          projects. With extensive experience in both front-end and back-end
+          development, I have a strong understanding of various programming
+          languages and frameworks. My expertise in generative AI allows me to
+          create intelligent systems that can learn and adapt to new challenges.
+          I am dedicated to continuous learning and staying updated with the
+          latest industry trends to provide the best possible solutions for my
+          clients.
+        </p>
+      </div>
+    </section>
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/color/48/000000/react-native.png"
+            alt="React"
+          />
+          <p>React</p>
+        </div>
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/color/48/000000/nodejs.png"
+            alt="Node.js"
+          />
+          <p>Node.js</p>
+        </div>
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/color/48/000000/mongodb.png"
+            alt="MongoDB"
+          />
+          <p>MongoDB</p>
+        </div>
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/color/48/000000/net-framework.png"
+            alt=".NET"
+          />
+          <p>.NET</p>
+        </div>
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/color/48/000000/material-ui.png"
+            alt="MUI"
+          />
+          <p>MUI</p>
+        </div>
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/color/48/000000/mysql-logo.png"
+            alt="MySQL"
+          />
+          <p>MySQL</p>
+        </div>
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
+            alt="Java"
+          />
+          <p>Java</p>
+        </div>
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/color/48/000000/c-sharp-logo.png"
+            alt="C#"
+          />
+          <p>C#</p>
+        </div>
+        <div class="skill">
+          <img
+            src="https://img.icons8.com/color/48/000000/figma.png"
+            alt="Figma"
+          />
+          <p>Figma</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <h3>AI Chatbot</h3>
+          <p>
+            Developed an AI-powered chatbot using Python and TensorFlow, capable
+            of understanding and responding to user queries in natural language.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>E-commerce Website</h3>
+          <p>
+            Created a full-stack e-commerce website using React, Node.js, and
+            MongoDB, featuring user authentication, product listings, and a
+            shopping cart.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>
+            Designed and developed a personal portfolio website using HTML, CSS,
+            and JavaScript to showcase my projects and skills.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="recommendations">
+      <div>
+        <h2>Recommendations</h2>
+        <div class="recommendations-container">
+          <div class="recommendation-card">
+            <p>
+              "Ayyan is a highly skilled developer who consistently delivers
+              top-notch work. His expertise in full-stack development and AI is
+              impressive." - John Doe
+            </p>
+          </div>
+          <div class="recommendation-card">
+            <p>
+              "Working with Ayyan has been a pleasure. He is professional,
+              knowledgeable, and always goes the extra mile to ensure project
+              success." - Jane Smith
+            </p>
+          </div>
+          <div class="recommendation-card">
+            <p>
+              "Ayyan's ability to solve complex problems and create innovative
+              solutions is truly remarkable. I highly recommend him for any
+              development project." - Michael Brown
+            </p>
+          </div>
+        </div>
+        <div class="recommendation-form">
+          <h3>Add a Recommendation</h3>
+          <form id="recommendation-form">
+            <textarea
+              id="new-recommendation"
+              placeholder="Add a recommendation"
+            ></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="scripts.js"></script>
+  </body>
+</html>
